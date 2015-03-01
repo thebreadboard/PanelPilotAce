@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+ <Properties>
+  <Property value="filterType: Project; name: Power Monitor Intermediate;" name="id"/>
+  <Property value="0302563ac393fc8bee9cbcf19ef099ed82f0d099f783e694f99cf891f084e1ccfdd3e2ccfc" name="version"/>
+  <Property value="1.1.0.2277" name="designerVersion"/>
+  <Property name="configuration">
+   <Object>
+    <Configuration>
+     <Properties>
+      <Property value="filterType: Configuration; name: SGD 43-A; scopeType: ConfigurationContainer;" name="id"/>
+      <Property value="100" name="displayBrightness"/>
+      <Property value="UNUSED, UNUSED, UNUSED, UNUSED, UNUSED, UNUSED, UNUSED, UNUSED" name="digitalInputOutputs"/>
+     </Properties>
+    </Configuration>
+   </Object>
+  </Property>
+  <Property name="imageResources">
+   <List>
+    <ImageResource>
+     <Properties>
+      <Property value="name: IMG_0339.JPG;" name="id"/>
+     </Properties>
+    </ImageResource>
+    <ImageResource>
+     <Properties>
+      <Property value="name: Breadboard 1440.jpg;" name="id"/>
+     </Properties>
+    </ImageResource>
+    <ImageResource>
+     <Properties>
+      <Property value="name: images9GVQNRYC.jpg;" name="id"/>
+     </Properties>
+    </ImageResource>
+    <ImageResource>
+     <Properties>
+      <Property value="name: allied electronics.png;" name="id"/>
+     </Properties>
+    </ImageResource>
+    <ImageResource>
+     <Properties>
+      <Property value="name: panelpilotlogo.png;" name="id"/>
+     </Properties>
+    </ImageResource>
+   </List>
+  </Property>
+  <Property name="variables">
+   <List>
+    <NumberVariable>
+     <Properties>
+      <Property value="filterType: NumberVariable; name: TotalizerVariable; scopeType: Project;" name="id"/>
+      <Property value="0" name="value"/>
+     </Properties>
+    </NumberVariable>
+    <NumberVariable>
+     <Properties>
+      <Property value="filterType: NumberVariable; name: AccumilatorTime; scopeType: Project;" name="id"/>
+      <Property value="0" name="value"/>
+     </Properties>
+    </NumberVariable>
+   </List>
+  </Property>
+  <Property name="screens">
+   <List>
+    <Screen>
+     <Properties>
+      <Property value="filterType: Screen; name: screen; scopeType: Project;" name="id"/>
+      <Property value="#ff0000ff" name="color"/>
+      <Property value="0" name="orientation"/>
+      <Property name="elements">
+       <List>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle3; scopeType: Screen;" name="id"/>
+          <Property value="x: 9; y: 139;" name="position"/>
+          <Property value="height: 61.667; width: 460.666;" name="size"/>
+          <Property value="#ffa2e2ff" name="color"/>
+          <Property value="color: #ff000000; width: 0;" name="border"/>
+          <Property value="4" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle7; scopeType: Screen;" name="id"/>
+          <Property value="x: 11.666; y: 164.667;" name="position"/>
+          <Property value="height: 34; width: 114;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ffff0000; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle8; scopeType: Screen;" name="id"/>
+          <Property value="x: 130; y: 164.667;" name="position"/>
+          <Property value="height: 34; width: 141;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ffff0000; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle9; scopeType: Screen;" name="id"/>
+          <Property value="x: 289.666; y: 143;" name="position"/>
+          <Property value="height: 55; width: 175;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ffff0000; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle; scopeType: Screen;" name="id"/>
+          <Property value="x: 10; y: 10;" name="position"/>
+          <Property value="height: 120; width: 225;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ff000000; width: 0;" name="border"/>
+          <Property value="4" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle1; scopeType: Screen;" name="id"/>
+          <Property value="x: 245; y: 10;" name="position"/>
+          <Property value="height: 120; width: 225;" name="size"/>
+          <Property value="#ffd1f8cb" name="color"/>
+          <Property value="color: #ff000000; width: 0;" name="border"/>
+          <Property value="4" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle2; scopeType: Screen;" name="id"/>
+          <Property value="x: 10; y: 73.67;" name="position"/>
+          <Property value="height: 56.333; width: 225;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ffff0000; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle4; scopeType: Screen;" name="id"/>
+          <Property value="x: 10; y: 34.67;" name="position"/>
+          <Property value="height: 38; width: 225;" name="size"/>
+          <Property value="#fff2f8e4" name="color"/>
+          <Property value="color: #ffff0000; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle5; scopeType: Screen;" name="id"/>
+          <Property value="x: 245; y: 35.333;" name="position"/>
+          <Property value="height: 38; width: 225;" name="size"/>
+          <Property value="#ffd1f8cb" name="color"/>
+          <Property value="color: #ff00ff00; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <Rectangle>
+         <Properties>
+          <Property value="filterType: Rectangle; name: rectangle6; scopeType: Screen;" name="id"/>
+          <Property value="x: 245; y: 74;" name="position"/>
+          <Property value="height: 56.333; width: 225;" name="size"/>
+          <Property value="#ffd1f8cb" name="color"/>
+          <Property value="color: #ff00ff00; width: 1;" name="border"/>
+          <Property value="6" name="cornerRadius"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Rectangle>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts; scopeType: Screen;" name="id"/>
+          <Property value="x: 216.666; y: 99.667;" name="position"/>
+          <Property value="height: 30; width: 18.333;" name="size"/>
+          <Property value="V" name="text"/>
+          <Property value="33" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: true; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Amps; scopeType: Screen;" name="id"/>
+          <Property value="x: 453; y: 101;" name="position"/>
+          <Property value="height: 30; width: 17;" name="size"/>
+          <Property value="A" name="text"/>
+          <Property value="33" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: true; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Watts; scopeType: Screen;" name="id"/>
+          <Property value="x: 12; y: 164;" name="position"/>
+          <Property value="height: 13; width: 113.667;" name="size"/>
+          <Property value="Current Watts" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Volts_Disp_High; scopeType: Screen;" name="id"/>
+          <Property value="x: 19.999; y: 49.999;" name="position"/>
+          <Property value="height: 25; width: 72.666;" name="size"/>
+          <Property value="00.000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ffff0000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 18; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Amps_Disp_High; scopeType: Screen;" name="id"/>
+          <Property value="x: 254.333; y: 49.666;" name="position"/>
+          <Property value="height: 24.667; width: 72.333;" name="size"/>
+          <Property value="00000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ffff0000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 18; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Watts_Disp; scopeType: Screen;" name="id"/>
+          <Property value="x: 11.332; y: 175.667;" name="position"/>
+          <Property value="height: 23.667; width: 114.668;" name="size"/>
+          <Property value="000.00" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Watts_Total_Disp; scopeType: Screen;" name="id"/>
+          <Property value="x: 290.333; y: 173;" name="position"/>
+          <Property value="height: 27; width: 116;" name="size"/>
+          <Property value="000000.00" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Power1; scopeType: Screen;" name="id"/>
+          <Property value="x: 130; y: 166.002;" name="position"/>
+          <Property value="height: 11.331; width: 140;" name="size"/>
+          <Property value="Current KW/Hr" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Amps_Disp_Low; scopeType: Screen;" name="id"/>
+          <Property value="x: 374.333; y: 54.333;" name="position"/>
+          <Property value="height: 16.667; width: 59.333;" name="size"/>
+          <Property value="00000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff00aa00" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 18; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Volts_Disp_Low; scopeType: Screen;" name="id"/>
+          <Property value="x: 132.667; y: 54;" name="position"/>
+          <Property value="height: 16.667; width: 72.666;" name="size"/>
+          <Property value="00.000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff00aa00" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 18; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Volts_Disp_Diff; scopeType: Screen;" name="id"/>
+          <Property value="x: 11.333; y: 74.667;" name="position"/>
+          <Property value="height: 55; width: 202.667;" name="size"/>
+          <Property value="00.000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: true; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 60; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Amps_Disp_Diff; scopeType: Screen;" name="id"/>
+          <Property value="x: 246; y: 74.667;" name="position"/>
+          <Property value="height: 54.333; width: 205;" name="size"/>
+          <Property value="5.000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff00aa00" name="color"/>
+          <Property value="bold: true; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 60; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Watts_KWHr; scopeType: Screen;" name="id"/>
+          <Property value="x: 130; y: 174;" name="position"/>
+          <Property value="height: 25.999; width: 141.333;" name="size"/>
+          <Property value="00.0000" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Power2; scopeType: Screen;" name="id"/>
+          <Property value="x: 295.665; y: 143.665;" name="position"/>
+          <Property value="height: 14.001; width: 109.335;" name="size"/>
+          <Property value="Acc W/hr" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts1; scopeType: Screen;" name="id"/>
+          <Property value="x: 10.333; y: 10.333;" name="position"/>
+          <Property value="height: 23; width: 225;" name="size"/>
+          <Property value="VOLTS" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts2; scopeType: Screen;" name="id"/>
+          <Property value="x: 83.666; y: 56.333;" name="position"/>
+          <Property value="height: 14.334; width: 23.667;" name="size"/>
+          <Property value="High" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts3; scopeType: Screen;" name="id"/>
+          <Property value="x: 197; y: 57;" name="position"/>
+          <Property value="height: 13.334; width: 25.667;" name="size"/>
+          <Property value="Low" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts4; scopeType: Screen;" name="id"/>
+          <Property value="x: 316.666; y: 56.666;" name="position"/>
+          <Property value="height: 14.334; width: 24.333;" name="size"/>
+          <Property value="High" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts5; scopeType: Screen;" name="id"/>
+          <Property value="x: 431.666; y: 57;" name="position"/>
+          <Property value="height: 13.334; width: 22.667;" name="size"/>
+          <Property value="Low" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts6; scopeType: Screen;" name="id"/>
+          <Property value="x: 19; y: 34.333;" name="position"/>
+          <Property value="height: 19.668; width: 214.667;" name="size"/>
+          <Property value="Differential Voltage Sense V" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts7; scopeType: Screen;" name="id"/>
+          <Property value="x: 249.666; y: 35.333;" name="position"/>
+          <Property value="height: 15.667; width: 214.667;" name="size"/>
+          <Property value="Differential Current Sense V" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 12; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts8; scopeType: Screen;" name="id"/>
+          <Property value="x: 245; y: 10;" name="position"/>
+          <Property value="height: 23; width: 225;" name="size"/>
+          <Property value="AMPS" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Text_Volts9; scopeType: Screen;" name="id"/>
+          <Property value="x: 9.999; y: 143.001;" name="position"/>
+          <Property value="height: 23.332; width: 278.334;" name="size"/>
+          <Property value="POWER" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <Image>
+         <Properties>
+          <Property value="filterType: Image; name: image1; scopeType: Screen;" name="id"/>
+          <Property value="x: 8.333; y: 205.667;" name="position"/>
+          <Property value="height: 67.333; width: 224.333;" name="size"/>
+          <Property value="filterType: ImageResource; objectId: Breadboard 1440.jpg; scopeType: Project;" name="source"/>
+          <Property value="0" name="optimization"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Image>
+        <DigitalDisplay>
+         <Properties>
+          <Property value="filterType: DigitalDisplay; name: Volts_Digital_High; scopeType: Screen;" name="id"/>
+          <Property value="filterType: AnalogInput; objectId: Volts_Input_High; scopeType: Screen;" name="analogInput"/>
+          <Property value="value1: 0, value2: 10, min: 0, max: 30" name="valueRange"/>
+          <Property value="filterType: TextBox; objectId: Volts_Disp_High; scopeType: Screen;" name="textElement"/>
+          <Property value="2" name="decimalPlaces"/>
+         </Properties>
+        </DigitalDisplay>
+        <DigitalDisplay>
+         <Properties>
+          <Property value="filterType: DigitalDisplay; name: Amps_Digital_High; scopeType: Screen;" name="id"/>
+          <Property value="filterType: AnalogInput; objectId: Amps_Input_High; scopeType: Screen;" name="analogInput"/>
+          <Property value="value1: 0, value2: 100, min: 0, max: 5" name="valueRange"/>
+          <Property value="filterType: TextBox; objectId: Amps_Disp_High; scopeType: Screen;" name="textElement"/>
+          <Property value="4" name="decimalPlaces"/>
+         </Properties>
+        </DigitalDisplay>
+        <AnalogInput>
+         <Properties>
+          <Property value="filterType: AnalogInput; name: Volts_Input_High; scopeType: Screen;" name="id"/>
+          <Property value="1" name="channel"/>
+          <Property value="maximum: 30; minimum: 0;" name="resolutionRange"/>
+         </Properties>
+        </AnalogInput>
+        <AnalogInput>
+         <Properties>
+          <Property value="filterType: AnalogInput; name: Amps_Input_High; scopeType: Screen;" name="id"/>
+          <Property value="3" name="channel"/>
+          <Property value="maximum: 0.5; minimum: 0;" name="resolutionRange"/>
+         </Properties>
+        </AnalogInput>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: WattsCalc; scopeType: Screen;" name="id"/>
+          <Property value="element: Volts_Disp_Diff; property: text; value: ; valueType: String; | element: ; property: ; value: MUL; valueType: Arithmetic; | element: Amps_Disp_Diff; property: text; value: ; valueType: String;" name="mathExpression"/>
+          <Property value="2" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <LogicActions>
+         <Properties>
+          <Property value="filterType: LogicActions; name: UpdateDisplays; scopeType: Screen;" name="id"/>
+          <Property value="filterType: Action; scopeType: Screen;" name="propertyChanges"/>
+          <Property value="Watts_Disp.text: WattsConverter.value; Volts_Disp_Diff.text: VoltsConverter.value; Amps_Disp_Diff.text: AmpsConverter.value; Watts_KWHr.text: WattsToKWHrString.value; TotalizerVariable: Totalizer.value; Watts_Total_Disp.text: TotalizerVariable" name="setExpressions"/>
+          <Property value="filterType: ScreenLoader; scopeType: Screen;" name="screenLoader"/>
+         </Properties>
+        </LogicActions>
+        <Timer>
+         <Properties>
+          <Property value="filterType: Timer; name: Update_Display_Timer; scopeType: Screen;" name="id"/>
+          <Property value="250" name="interval"/>
+          <Property value="0" name="repeatBehavior"/>
+          <Property value="0" name="startDelay"/>
+          <Property value="true" name="autoStart"/>
+          <Property value="filterType: BasicAction; objectId: UpdateDisplays; scopeType: Screen;" name="action"/>
+         </Properties>
+        </Timer>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: WattsConverter; scopeType: Screen;" name="id"/>
+          <Property value="WattsCalc.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="2" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <Timer>
+         <Properties>
+          <Property value="filterType: Timer; name: Send_Stats_RS232; scopeType: Screen;" name="id"/>
+          <Property value="1000" name="interval"/>
+          <Property value="0" name="repeatBehavior"/>
+          <Property value="0" name="startDelay"/>
+          <Property value="true" name="autoStart"/>
+          <Property value="filterType: BasicAction; objectId: rs232Send; scopeType: Screen;" name="action"/>
+         </Properties>
+        </Timer>
+        <Rs232Send>
+         <Properties>
+          <Property value="filterType: Rs232Send; name: rs232Send; scopeType: Screen;" name="id"/>
+          <Property value="filterType: SerialComPort; objectId: serialComPort; scopeType: Screen;" name="serialPort"/>
+          <Property value="dataValue: ; description1: Vj0=; description2: LA==; element: Volts_Disp_Diff; property: text; valueType: Property; | dataValue: ; description1: Qz0=; description2: LA==; element: Amps_Disp_Diff; property: text; valueType: Property; | dataValue: ; description1: Vz0=; description2: LA==; element: Watts_Disp; property: text; valueType: Property; | dataValue: ; description1: VD0=; description2: LA==; element: Watts_Total_Disp; property: text; valueType: Property; | dataValue: ; description1: Uz0=; description2: ; element: AccumilatorTime; property: ; valueType: Variable;" name="sendString"/>
+          <Property value="" name="receiveId"/>
+         </Properties>
+        </Rs232Send>
+        <SerialComPort>
+         <Properties>
+          <Property value="filterType: SerialComPort; name: serialComPort; scopeType: Screen;" name="id"/>
+          <Property value="Terminal" name="serviceType"/>
+          <Property value="Rate115200" name="baudRate"/>
+          <Property value="NoParity" name="parityCheck"/>
+          <Property value="One" name="stopBit"/>
+          <Property value="NoFlowControl" name="flowControl"/>
+          <Property value="Level0" name="errorCheckLevel"/>
+          <Property value="Mode2" name="terminalType"/>
+          <Property value="CrAndNewLine" name="terminatingCharSend"/>
+          <Property value="Cr" name="terminatingCharReceive"/>
+          <Property value="Space" name="sendSeperator"/>
+          <Property value="Space" name="receiveSeperator"/>
+         </Properties>
+        </SerialComPort>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: Vdifferntial; scopeType: Screen;" name="id"/>
+          <Property value="element: Volts_Digital_High; property: scaledValue; value: ; valueType: Number; | element: ; property: ; value: SUB; valueType: Arithmetic; | element: Volts_Digital_Low; property: scaledValue; value: ; valueType: Number;" name="mathExpression"/>
+          <Property value="2" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <AnalogInput>
+         <Properties>
+          <Property value="filterType: AnalogInput; name: Volts_Input_Low; scopeType: Screen;" name="id"/>
+          <Property value="2" name="channel"/>
+          <Property value="maximum: 30; minimum: 0;" name="resolutionRange"/>
+         </Properties>
+        </AnalogInput>
+        <AnalogInput>
+         <Properties>
+          <Property value="filterType: AnalogInput; name: Amps_Input_Low; scopeType: Screen;" name="id"/>
+          <Property value="4" name="channel"/>
+          <Property value="maximum: 0.5; minimum: 0;" name="resolutionRange"/>
+         </Properties>
+        </AnalogInput>
+        <DigitalDisplay>
+         <Properties>
+          <Property value="filterType: DigitalDisplay; name: Amps_Digital_Low; scopeType: Screen;" name="id"/>
+          <Property value="filterType: AnalogInput; objectId: Amps_Input_Low; scopeType: Screen;" name="analogInput"/>
+          <Property value="value1: 0, value2: 100, min: 0, max: 5" name="valueRange"/>
+          <Property value="filterType: TextBox; objectId: Amps_Disp_Low; scopeType: Screen;" name="textElement"/>
+          <Property value="4" name="decimalPlaces"/>
+         </Properties>
+        </DigitalDisplay>
+        <DigitalDisplay>
+         <Properties>
+          <Property value="filterType: DigitalDisplay; name: Volts_Digital_Low; scopeType: Screen;" name="id"/>
+          <Property value="filterType: AnalogInput; objectId: Volts_Input_Low; scopeType: Screen;" name="analogInput"/>
+          <Property value="value1: 0, value2: 10, min: 0, max: 30" name="valueRange"/>
+          <Property value="filterType: TextBox; objectId: Volts_Disp_Low; scopeType: Screen;" name="textElement"/>
+          <Property value="2" name="decimalPlaces"/>
+         </Properties>
+        </DigitalDisplay>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: AmpsDifferential; scopeType: Screen;" name="id"/>
+          <Property value="element: Amps_Digital_High; property: scaledValue; value: ; valueType: Number; | element: ; property: ; value: SUB; valueType: Arithmetic; | element: Amps_Digital_Low; property: scaledValue; value: ; valueType: Number;" name="mathExpression"/>
+          <Property value="4" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: VoltsConverter; scopeType: Screen;" name="id"/>
+          <Property value="Vdifferntial.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="2" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: AmpsConverter; scopeType: Screen;" name="id"/>
+          <Property value="AmpsDifferential.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="4" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: Totalizer; scopeType: Screen;" name="id"/>
+          <Property value="element: TotalizerVariable; property: ; value: ; valueType: NumberVar; | element: ; property: ; value: ADD; valueType: Arithmetic; | element: ; property: ; value: OPEN; valueType: Paranthesis; | element: WattsCalc; property: value; value: ; valueType: Number; | element: ; property: ; value: DIV; valueType: Arithmetic; | element: ; property: ; value: 14400; valueType: Constant; | element: ; property: ; value: CLOSE; valueType: Paranthesis;" name="mathExpression"/>
+          <Property value="6" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: KWHR_Current; scopeType: Screen;" name="id"/>
+          <Property value="element: WattsCalc; property: value; value: ; valueType: Number; | element: ; property: ; value: DIV; valueType: Arithmetic; | element: ; property: ; value: 1000; valueType: Constant;" name="mathExpression"/>
+          <Property value="4" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: WattsToKWHrString; scopeType: Screen;" name="id"/>
+          <Property value="KWHR_Current.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="4" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <Ellipse>
+         <Properties>
+          <Property value="filterType: Ellipse; name: ellipse; scopeType: Screen;" name="id"/>
+          <Property value="x: 409.667; y: 146;" name="position"/>
+          <Property value="height: 50; width: 50;" name="size"/>
+          <Property value="#ff55aaff" name="color"/>
+          <Property value="color: #ff000000; width: 0;" name="border"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Ellipse>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: textBox; scopeType: Screen;" name="id"/>
+          <Property value="x: 411.001; y: 162.334;" name="position"/>
+          <Property value="height: 17.667; width: 47;" name="size"/>
+          <Property value="Reset" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 18; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <Image>
+         <Properties>
+          <Property value="filterType: Image; name: image; scopeType: Screen;" name="id"/>
+          <Property value="x: 235.667; y: 205.333;" name="position"/>
+          <Property value="height: 65.334; width: 75.667;" name="size"/>
+          <Property value="filterType: ImageResource; objectId: images9GVQNRYC.jpg; scopeType: Project;" name="source"/>
+          <Property value="0" name="optimization"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Image>
+        <Image>
+         <Properties>
+          <Property value="filterType: Image; name: image2; scopeType: Screen;" name="id"/>
+          <Property value="x: 314.667; y: 205;" name="position"/>
+          <Property value="height: 65.334; width: 75.667;" name="size"/>
+          <Property value="filterType: ImageResource; objectId: allied electronics.png; scopeType: Project;" name="source"/>
+          <Property value="0" name="optimization"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Image>
+        <Image>
+         <Properties>
+          <Property value="filterType: Image; name: image3; scopeType: Screen;" name="id"/>
+          <Property value="x: 393.666; y: 219;" name="position"/>
+          <Property value="height: 31.668; width: 75.334;" name="size"/>
+          <Property value="filterType: ImageResource; objectId: panelpilotlogo.png; scopeType: Project;" name="source"/>
+          <Property value="0" name="optimization"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </Image>
+        <Button>
+         <Properties>
+          <Property value="filterType: Button; name: Reset_button; scopeType: Screen;" name="id"/>
+          <Property value="filterType: VisualElement; objectId: ellipse; scopeType: Screen;" name="visualElement"/>
+          <Property value="" name="normalState"/>
+          <Property value="" name="pressedState"/>
+          <Property value="filterType: BasicAction; objectId: ResetTotalizer; scopeType: Screen;" name="clickedAction"/>
+          <Property value="filterType: BasicAction; scopeType: Screen;" name="doubleClickedAction"/>
+          <Property value="400" name="doubleClickInterval"/>
+          <Property value="filterType: BasicAction; scopeType: Screen;" name="longPressedAction"/>
+          <Property value="1500" name="longPressInterval"/>
+         </Properties>
+        </Button>
+        <LogicActions>
+         <Properties>
+          <Property value="filterType: LogicActions; name: ResetTotalizer; scopeType: Screen;" name="id"/>
+          <Property value="filterType: Action; scopeType: Screen;" name="propertyChanges"/>
+          <Property value="TotalizerVariable: 0; AccumilatorTime: 0" name="setExpressions"/>
+          <Property value="filterType: ScreenLoader; scopeType: Screen;" name="screenLoader"/>
+         </Properties>
+        </LogicActions>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Acc_Hours; scopeType: Screen;" name="id"/>
+          <Property value="x: 291.333; y: 153.333;" name="position"/>
+          <Property value="height: 27; width: 26;" name="size"/>
+          <Property value="00" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Sunken; styleColor: #ffff0000;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Acc_Mins; scopeType: Screen;" name="id"/>
+          <Property value="x: 321.333; y: 154.334;" name="position"/>
+          <Property value="height: 27; width: 25.334;" name="size"/>
+          <Property value="00" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Sunken; styleColor: #ffff0000;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Acc_Sec; scopeType: Screen;" name="id"/>
+          <Property value="x: 353.334; y: 154.666;" name="position"/>
+          <Property value="height: 27; width: 25.666;" name="size"/>
+          <Property value="00" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Sunken; styleColor: #ffff0000;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <Timer>
+         <Properties>
+          <Property value="filterType: Timer; name: Elapsed_timer; scopeType: Screen;" name="id"/>
+          <Property value="1000" name="interval"/>
+          <Property value="0" name="repeatBehavior"/>
+          <Property value="0" name="startDelay"/>
+          <Property value="true" name="autoStart"/>
+          <Property value="filterType: BasicAction; objectId: ElapsedTimerActions; scopeType: Screen;" name="action"/>
+         </Properties>
+        </Timer>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: Incremant_Elapsed_Time; scopeType: Screen;" name="id"/>
+          <Property value="element: AccumilatorTime; property: ; value: ; valueType: NumberVar; | element: ; property: ; value: ADD; valueType: Arithmetic; | element: ; property: ; value: 1; valueType: Constant;" name="mathExpression"/>
+          <Property value="0" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <LogicActions>
+         <Properties>
+          <Property value="filterType: LogicActions; name: ElapsedTimerActions; scopeType: Screen;" name="id"/>
+          <Property value="filterType: Action; scopeType: Screen;" name="propertyChanges"/>
+          <Property value="AccumilatorTime: Incremant_Elapsed_Time.value; Acc_Hours.text: ConvertHour.value; Acc_Mins.text: ConvertMins.value; Acc_Sec.text: ConvertSec.value" name="setExpressions"/>
+          <Property value="filterType: ScreenLoader; scopeType: Screen;" name="screenLoader"/>
+         </Properties>
+        </LogicActions>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: CalcSeconds; scopeType: Screen;" name="id"/>
+          <Property value="element: AccumilatorTime; property: ; value: ; valueType: NumberVar; | element: ; property: ; value: MOD; valueType: Arithmetic; | element: ; property: ; value: 60; valueType: Constant;" name="mathExpression"/>
+          <Property value="0" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: CalcMinutes; scopeType: Screen;" name="id"/>
+          <Property value="element: ; property: ; value: OPEN; valueType: Paranthesis; | element: AccumilatorTime; property: ; value: ; valueType: NumberVar; | element: ; property: ; value: DIV; valueType: Arithmetic; | element: ; property: ; value: 60; valueType: Constant; | element: ; property: ; value: CLOSE; valueType: Paranthesis; | element: ; property: ; value: MOD; valueType: Arithmetic; | element: ; property: ; value: 60; valueType: Constant;" name="mathExpression"/>
+          <Property value="0" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <MathBuilder>
+         <Properties>
+          <Property value="filterType: MathBuilder; name: CalcHours; scopeType: Screen;" name="id"/>
+          <Property value="element: AccumilatorTime; property: ; value: ; valueType: NumberVar; | element: ; property: ; value: DIV; valueType: Arithmetic; | element: ; property: ; value: 3600; valueType: Constant;" name="mathExpression"/>
+          <Property value="0" name="decimals"/>
+         </Properties>
+        </MathBuilder>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Acc_Hours1; scopeType: Screen;" name="id"/>
+          <Property value="x: 314.667; y: 152;" name="position"/>
+          <Property value="height: 27; width: 8.666;" name="size"/>
+          <Property value=":" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <TextBox>
+         <Properties>
+          <Property value="filterType: TextBox; name: Acc_Hours2; scopeType: Screen;" name="id"/>
+          <Property value="x: 347; y: 152;" name="position"/>
+          <Property value="height: 27; width: 6.667;" name="size"/>
+          <Property value=":" name="text"/>
+          <Property value="132" name="alignment"/>
+          <Property value="#ff000000" name="color"/>
+          <Property value="bold: false; family: RHJvaWQgU2Fucw==; italic: false; letterSpacing: 0; overline: false; pixelSize: 24; strikeout: false; underline: false; wordSpacing: 0;" name="font"/>
+          <Property value="textStyle: Normal;" name="textStyle"/>
+          <Property value="1" name="opacity"/>
+          <Property value="angle: 0; fixedPoint: Center;" name="rotation"/>
+          <Property value="0" name="z"/>
+          <Property value="true" name="visible"/>
+         </Properties>
+        </TextBox>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: ConvertSec; scopeType: Screen;" name="id"/>
+          <Property value="CalcSeconds.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="0" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: ConvertMins; scopeType: Screen;" name="id"/>
+          <Property value="CalcMinutes.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="0" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+        <StringConverter>
+         <Properties>
+          <Property value="filterType: StringConverter; name: ConvertHour; scopeType: Screen;" name="id"/>
+          <Property value="CalcHours.value" name="input"/>
+          <Property value="NaturalFormat" name="format"/>
+          <Property value="NaturalCase" name="letterCase"/>
+          <Property value="true" name="zeros"/>
+          <Property value="0" name="decimals"/>
+          <Property value="" name="nanString"/>
+          <Property value="" name="infinityString"/>
+          <Property value="" name="negativeInfinityString"/>
+          <Property value="" name="trueString"/>
+          <Property value="" name="falseString"/>
+          <Property value="#ARGB" name="colorFormat"/>
+         </Properties>
+        </StringConverter>
+       </List>
+      </Property>
+     </Properties>
+    </Screen>
+   </List>
+  </Property>
+  <Property value="filterType: Screen; objectId: screen; scopeType: Project;" name="defaultScreen"/>
+ </Properties>
+</Project>
